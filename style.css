@@ -20,4 +20,14 @@ body {
 
 .wrapper {
     background-color: silver;
+    display: flex;
+    width: 64vw;
+    height: 60vh;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 2rem;
 }
